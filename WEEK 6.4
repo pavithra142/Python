@@ -1,0 +1,9 @@
+a=int(input())
+l1=str(input())
+l2=str(input())
+l1=[int(num) for num in l1.split() ]
+l2=[int(num) for num in l2.split() ]
+for i in range(0,a):
+   for j in range(0,a):
+       if (l1[i]==l2[j]):
+           print(j,end=" ")
