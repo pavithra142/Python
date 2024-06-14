@@ -1,0 +1,11 @@
+uw=set()
+ow=[]
+while True:
+    w=input().strip()
+    if not w:
+        break
+    if w not in uw:
+        uw.add(w)
+        ow.append(w)
+for w in ow:
+    print(w)
