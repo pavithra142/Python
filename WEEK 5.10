@@ -1,0 +1,5 @@
+w=input()
+if(w=='break' or w=='case' or w=='continue' or w=='default' or w=='else' or w=='for' or w=='func' or w=='goto' or w=='if' or w=='map' or w=='range' or w=='return' or w=='struct' or w=='type' or w=='var'):
+    print(w,"is a keyword")
+else:
+    print(w,"is not a keyword")
