@@ -1,0 +1,13 @@
+s1=input()
+s2=input()
+n=int(input())
+r=''
+set2 = set(s2)
+for i in s1:
+    if i in set2 and i not in r:
+        r+=i
+        if len(r)== n:
+            break
+print(r)
+
+    
